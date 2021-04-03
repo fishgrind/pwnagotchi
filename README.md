@@ -5,6 +5,7 @@ Just my custom pwnagotchi plugins
 # Onebutton.py
 
 - Copy to custom plugin directory
+- ssh into the pi and run: `sudo apt install python3-gpiozero`
 - Make sure you have push button soldered on or plugged on the GPIO pin 27
 - 1 to 5 seconds -> changes mode
 - 6 to 10 seconds -> restarts pwnagotch (not a reboot) if you would like to reboot comment out line 62 and enable line 63 (pwnagotchi.restart(modeNow) => pwnagotchi.reboot())
