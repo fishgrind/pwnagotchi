@@ -24,7 +24,7 @@ class OneButton(plugins.Plugin):
     __author__ = 'fishgrind.com'
     __version__ = '1.0.0'
     __license__ = 'GPL3'
-    __description__ = 'One button to rule them all \n\n 1-5s -> Restart Auto \n\n 5-10s -> Restart man \n\n 10-15s -> Restart Pi \n\n 15s+ -> Shutdown Pi'
+    __description__ = 'One button to rule them all \n\n 1-4s -> Change mode \n\n 4-9s -> Restart \n\n 10s+ -> Shutdown Pi'
 
     def on_loaded(self):
         logging.info('One Button -> Plugin loaded (GPIO %d)', gpioPin)
